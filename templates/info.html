@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+    {% block head %}
+    <h1>cigarette town</h1>
+    {% endblock %}
+    {% block body %}
+    <p>this is the main hub of cigarette town</p>
+    <p><a href="{{ url_for('index') }}" class="btn-info">Back to main page</a></p>
+    <a href="{{ url_for('thebest') }}" class="btn-info">In case you are wondering who the best is</a>
+
+    {% endblock %}
+
+    

@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(128, 169, 148);
+}
+
+.btn-info {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(96, 53, 53);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(96, 53, 53);
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-info:hover {
+  background-color: rgb(176, 164, 164);
+  border-color: rgb(176, 164, 164);
+}/*# sourceMappingURL=styles.css.map */
